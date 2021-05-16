@@ -3,7 +3,8 @@
 
 .header {
     background-color: wheat;
-    height: 140px;
+    height: 200px;
+    display: flex;
 }
 
 .main {
@@ -19,28 +20,31 @@
 
 .headlist {
 
-    float: left;
-
     list-style: none;
 
     color: #372489;
 
     padding: 30px 10px;
 
+
 }
 
 .head {
-    font-size: 50px;
+    
+    font-size: 30px;
 
-    float: left;
 
-    border: 5px solid blue;
+    padding: 5px 1px;
 
-    margin: 20px 20px;
-
-    padding: 1px 1px;
 
 }
+
+.header h1 {
+    border: 5px solid blue;
+    font-family:'Times New Roman', Times, serif;
+    margin-left: 10px;
+}
+
 .footerlist {
     float: right;
     list-style: none;
@@ -48,11 +52,13 @@
 }
 .foot {
     float: left;
+    font-size: 40px;
+    font-family:'Times New Roman', Times, serif;
 }
 
 .webpage {
     color: white;
-    font-size: 10px;
+    font-size: 30px;
     float: left;
 }
 
@@ -65,21 +71,33 @@ span {
     color: red;
 }
 
-input, textarea {
-    width: 300px;
-    margin-top: 10px;
+input {
+    width: 200px;
+    
     margin-bottom: 30px;
     padding: 20px;
     font-size: 10px;
-    height: 10px;
+    height: 5px;
     border: 1px solid #dee7ec;
 }
 
-.form {
-    margin: 50px 50px;
+textarea {
+
+    width: 400px;
+    margin-bottom: 30px;
+    padding: 20px;
+    font-size: 20px;
+    height: 20px;
+    border: 1px solid #dee7ec;
 }
+
 
 .contact-submit{
     background-color: #dee7ec;
     color: #889eab;
   }
+
+.user {
+    display: flex;
+    
+}
