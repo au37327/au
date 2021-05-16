@@ -1,0 +1,85 @@
+
+
+
+.header {
+    background-color: wheat;
+    height: 140px;
+}
+
+.main {
+    background-color: chartreuse;
+    height: 700px;
+}
+
+.footer {
+    background-color: cyan;
+    height: 120px;
+    padding: 70px;
+}
+
+.headlist {
+
+    float: left;
+
+    list-style: none;
+
+    color: #372489;
+
+    padding: 30px 10px;
+
+}
+
+.head {
+    font-size: 50px;
+
+    float: left;
+
+    border: 5px solid blue;
+
+    margin: 20px 20px;
+
+    padding: 1px 1px;
+
+}
+.footerlist {
+    float: right;
+    list-style: none;
+    
+}
+.foot {
+    float: left;
+}
+
+.webpage {
+    color: white;
+    font-size: 10px;
+    float: left;
+}
+
+.image {
+    width: 30px;
+    height: 30px;
+}
+
+span {
+    color: red;
+}
+
+input, textarea {
+    width: 300px;
+    margin-top: 10px;
+    margin-bottom: 30px;
+    padding: 20px;
+    font-size: 10px;
+    height: 10px;
+    border: 1px solid #dee7ec;
+}
+
+.form {
+    margin: 50px 50px;
+}
+
+.contact-submit{
+    background-color: #dee7ec;
+    color: #889eab;
+  }
